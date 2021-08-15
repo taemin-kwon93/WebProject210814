@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ include file="color.jsp"%>
 <!--list.jsp 13행
 request.setAttribute("listModel", articlelistModel); -->
 <%--둘의 차이점은 html 소스 보기에서 확인할 수 있다.

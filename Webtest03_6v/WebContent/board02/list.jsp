@@ -2,6 +2,7 @@
     pageEncoding="EUC-KR"%>
 <%@ page import="ez.model.ArticleListModel" %>
 <%@ page import="ez.board.service02.ListArticleService" %>
+
 <%
 	String pageNumberString = request.getParameter("p");//request영역으로 부터 p값을 받아온다. 
 	//받아온 p값을 String타입 pageNumberString에 저장한다.
