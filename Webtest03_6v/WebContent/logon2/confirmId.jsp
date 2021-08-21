@@ -39,11 +39,9 @@
 </body>
 </html>
 <script language="javascript">
-
   function setid()
     {		
     	opener.document.userinput.id.value="${id}";
 	self.close();
    }
-
 </script>
